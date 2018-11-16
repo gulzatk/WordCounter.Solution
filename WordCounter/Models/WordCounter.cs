@@ -3,35 +3,50 @@ using System.Collections.Generic;
 
 namespace WordCounter.Models
 {
-  public static class RepeatCounter
+  public class RepeatCounter
   {
     // Properties
-    private string Word;
-    private string Sentence;
+    private string _word;
+    private string _sentence;
 
     // Constructor
-    public RepeatCounter(string inputWord, string inputSentence)
+    public RepeatCounter(string word, string sentence)
     {
-      Word = inputWord;
-      Sentence = inputSentence;
+      _word = word;
+      _sentence = sentence;
     }
-    // objects
-    public string[] GetSentence()
+    public string GetWord()
     {
-     return Sentence;
+      return _word;
+    }
+
+    public void SetWord(string newWord)
+    {
+      _word = newWord;
+    }
+
+    public string GetSentence()
+    {
+     return _sentence;
    }
-   public SetSentence()
+
+   public void SetSentence(string newSentence)
    {
-     string words = Sentence.Split(' ');
+     _sentence = newSentence;
+   }
+   
+   public string[] SplitSentence()
+   {
+     string[] words = _sentence.Split(' ');
      return words;
    }
 
    public int CountWords()
    {
      int result = 0;
-     foreach (string word in words)
+     foreach (string word in SplitSentence())
      {
-       if (word == Word)
+       if (word == _word)
      {
        result++;
      }
