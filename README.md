@@ -33,14 +33,16 @@ This is a word counter that check how frequently a word appears in a given sente
 
 Clone Repository
 Open in terminal
-See Demo here: http://gulzatk.github.io/word-counter/
+See Demo here: http://gulzatk.github.io/WordCounter/
 
 ## Support and contact details
 
 If you have any questions or suggestions please feel free to email me: gulzat.karimova@gmail.com
 
 ## Technologies Used
-_C#, MSTest, .NET Core_
+*C#,
+*MSTest,
+*.NET Core*
 
 ## License
 This software is licensed under the MIT license
