@@ -7,25 +7,28 @@ namespace WordCounter.Models.Tests
   public class RepeatCounterTests
   {
     [TestMethod]
-    public void RepeatCounterConstructor_CreatesInstanceofRepeatCounter_RepeatCounter()
+    public void Constructor_CreatesInstanceOfRepeatCounter_RepeatCounter()
     {
       RepeatCounter newRepeatCounter = new RepeatCounter("test", "");
       Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
     }
 
     [TestMethod]
-    public void GetWord_ReturnWord_String()
+    public void GetWord_ReturnsWord_String()
     {
       // Arrange
       string word = "cat";
       RepeatCounter newRepeatCounter = new RepeatCounter(word, "");
+
       // Act
       string result = newRepeatCounter.GetWord();
+
       // Assert
       Assert.AreEqual(word, result);
     }
+
     [TestMethod]
-    public void SetWord_SetsWord_String()
+    public void SetWord_SetsWord_Void()
     {
       // Arrange
       string word = "cat";
@@ -37,8 +40,9 @@ namespace WordCounter.Models.Tests
       // Assert
       Assert.AreEqual(newWord, result);
     }
+
     [TestMethod]
-    public void GetSentence_ReturnSentence_String()
+    public void GetSentence_ReturnsSentence_String()
     {
       // Arrange
       string sentence = "I like my cat";
@@ -48,8 +52,9 @@ namespace WordCounter.Models.Tests
       // Assert
       Assert.AreEqual(sentence, result);
     }
+
     [TestMethod]
-    public void SetSentence_SetSentence_String()
+    public void SetSentence_SetsSentence_Void()
     {
       // Arrange
       string sentence = "I like my cat.";
@@ -61,8 +66,9 @@ namespace WordCounter.Models.Tests
       // Assert
       Assert.AreEqual(newSentence, result);
     }
+
     [TestMethod]
-    public void SplitSentence_ReturnWords_String()
+    public void SplitSentence_ReturnsWords_StringArray()
     {
       // Arrange
       string sentence = "I like my cat";
@@ -73,6 +79,7 @@ namespace WordCounter.Models.Tests
       // Assert
       CollectionAssert.AreEqual(newSentence, result);
     }
+
     [TestMethod]
     public void CountWords_CountWordsFromSentence_Int()
     {
