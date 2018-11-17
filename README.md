@@ -33,7 +33,7 @@ This is a word counter that check how frequently a word appears in a given sente
 
 Clone Repository
 Open in terminal
-See Demo here: http://gulzatk.github.io/WordCounter/
+
 
 ## Support and contact details
 
