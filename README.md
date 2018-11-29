@@ -31,6 +31,15 @@ This is a word counter that check how frequently a word appears in a given sente
 
 ## Setup/Installation Requirements
 
+Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and Install them. Download Mono and install it.
+
+1. Clone this repository: $ git clone https://github.com/gulzatk/WordCounter.Solution
+
+2. Change into the work directory: $ cd WordCounter.Solution
+3. To edit the project, open the project in your preferred text editor (atom .).
+4. To reun the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
+5. To run the tests, use the commands: $cd WordCounter.Tests $ dotnet test 
+
 Clone Repository
 Open in terminal
 
