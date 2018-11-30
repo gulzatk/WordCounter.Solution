@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounter;
+using WordCounter.Models;
 
-namespace WordCounter.Models.Tests
+namespace WordCounter.Tests
 {
   [TestClass]
   public class RepeatCounterTests
@@ -79,19 +79,5 @@ namespace WordCounter.Models.Tests
       // Assert
       CollectionAssert.AreEqual(newSentence, result);
     }
-
-    [TestMethod]
-    public void CountWords_CountWordsFromSentence_Int()
-    {
-    // Arrange
-    int result = 1;
-    string word = "cat";
-    string sentence = "I like my cat";
-    RepeatCounter newRepeatCounter = new RepeatCounter(word, sentence);
-    // Act
-    int newResult = newRepeatCounter.CountWords();
-    // Assert
-    Assert.AreEqual(result, newResult);
-  }
   }
 }
