@@ -1,6 +1,6 @@
 # Word Counter
 
-#### C# Independent Project for Epicodus, 11/16/2018
+#### C# Independent Project for Epicodus, 11/30/2018
 
 ### **By Gulzat Karimova**
 
@@ -38,7 +38,7 @@ Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and Install them. Downl
 2. Change into the work directory: $ cd WordCounter.Solution
 3. To edit the project, open the project in your preferred text editor (atom .).
 4. To reun the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
-5. To run the tests, use the commands: $cd WordCounter.Tests $ dotnet test 
+5. To run the tests, use the commands: $cd WordCounter.Tests $ dotnet test
 
 Clone Repository
 Open in terminal
@@ -49,9 +49,12 @@ Open in terminal
 If you have any questions or suggestions please feel free to email me: gulzat.karimova@gmail.com
 
 ## Technologies Used
-*C#,
-*MSTest,
-*.NET Core*
+* C#,
+* MSTest,
+* .NET Core
+* mono
+* GitHub 
+
 
 ## License
 This software is licensed under the MIT license

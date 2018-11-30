@@ -79,5 +79,20 @@ namespace WordCounter.Tests
       // Assert
       CollectionAssert.AreEqual(newSentence, result);
     }
+
+    [TestMethod]
+    public void GetCount_ReturnsCount_Int()
+    {
+      // Arrange
+      string word = "cat";
+      string sentence = "I like my cat";
+      RepeatCounter newRepeatCounter = new RepeatCounter(word, sentence);
+
+      // Act
+      int result = newRepeatCounter.CountWords();
+
+      // Assert
+      Assert.AreEqual(1, result);
+    }
   }
 }

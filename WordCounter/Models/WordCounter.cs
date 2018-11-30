@@ -8,6 +8,7 @@ namespace WordCounter.Models
     // Properties
     private string _word;
     private string _sentence;
+    private int _count;
 
     // Constructor
     public RepeatCounter(string word, string sentence)
@@ -41,6 +42,15 @@ namespace WordCounter.Models
       string[] words = _sentence.Split(' ');
       return words;
     }
+     public int GetCount()
+     {
+       return _count;
+     }
+
+     public void SetCount(int newCount)
+     {
+       _count = newCount;
+     }
 
     public int CountWords()
     {
@@ -54,16 +64,5 @@ namespace WordCounter.Models
       }
       return result;
     }
-
-    // public static void Main()
-    // {
-    //   Console.Write("Enter a word: ");
-    //   string inputWord = Console.ReadLine();
-    //   Console.Write("Enter a sentence: ");
-    //   string inputSentence = Console.ReadLine();
-    //
-    //   RepeatCounter counter = new RepeatCounter(inputWord, inputSentence);
-    //   Console.WriteLine("There are " + counter.CountWords() + " occurences of the word '" + inputWord + "'.");
-    // }
   }
 }
