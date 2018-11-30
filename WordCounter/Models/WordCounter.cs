@@ -55,15 +55,15 @@ namespace WordCounter.Models
       return result;
     }
 
-    public static void Main()
-    {
-      Console.Write("Enter a word: ");
-      string inputWord = Console.ReadLine();
-      Console.Write("Enter a sentence: ");
-      string inputSentence = Console.ReadLine();
-
-      RepeatCounter counter = new RepeatCounter(inputWord, inputSentence);
-      Console.WriteLine("There are " + counter.CountWords() + " occurences of the word '" + inputWord + "'.");
-    }
+    // public static void Main()
+    // {
+    //   Console.Write("Enter a word: ");
+    //   string inputWord = Console.ReadLine();
+    //   Console.Write("Enter a sentence: ");
+    //   string inputSentence = Console.ReadLine();
+    //
+    //   RepeatCounter counter = new RepeatCounter(inputWord, inputSentence);
+    //   Console.WriteLine("There are " + counter.CountWords() + " occurences of the word '" + inputWord + "'.");
+    // }
   }
 }

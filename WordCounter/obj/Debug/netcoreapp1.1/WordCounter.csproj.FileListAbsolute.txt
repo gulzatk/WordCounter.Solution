@@ -5,3 +5,12 @@ C:\Users\gulza\epicodus\CSharp\WordCounter.Solution\WordCounter\bin\Debug\netcor
 C:\Users\gulza\epicodus\CSharp\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.pdb
 C:\Users\gulza\epicodus\CSharp\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
 C:\Users\gulza\epicodus\CSharp\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.deps.json
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\gulza\epicodus\CSharp\WordCounter2.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.pdb
