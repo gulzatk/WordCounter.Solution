@@ -1,0 +1,11 @@
+<div class="container">
+<h1>Word Counter<h1>
+<p>Your entered word is: @Model.GetWord().
+<p>Your entered sentence is: @Model.GetSentence().
+<p>There is/are "@Model.CountWords()" matched word(s) in your sentence</p>
+
+
+<form action="/words/new" method="Get">
+  <button type="submit">Try Again</button>
+</form>
+</div>

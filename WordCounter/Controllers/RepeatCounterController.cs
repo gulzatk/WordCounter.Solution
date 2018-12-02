@@ -12,13 +12,12 @@ namespace WordCounter.Controllers
       return View();
     }
 
-    [HttpPost("/words/create")]
-    public ActionResult Create()
+
+    [HttpPost("/words/result")]
+    public ActionResult Result(string word, string sentence)
     {
-      RepeatCounter newCount = new RepeatCounter(Request.Form["word"], Request.Form["sentence"]);
-      int result = newCount.CountWords();
-      newCount.SetCount(result);
-      return View("Index", newCount);
+    RepeatCounter newCount = new RepeatCounter(word, sentence);
+    return View(newCount);
     }
   }
 
