@@ -1,9 +1,15 @@
-<div class="container">
-<h1>Word Counter<h1>
-<p>Your entered word is: @Model.GetWord().
-<p>Your entered sentence is: @Model.GetSentence().
-<p>There is/are "@Model.CountWords()" matched word(s) in your sentence</p>
+@{
+Layout = "_Layout";
+}
 
+<div class="container">
+<div class="container">
+<div class ="jumbotron">
+<h1>Word Counter<h1>
+</div>
+<p>Your entered word is: @Model.GetWord().<br>
+<p>Your entered sentence is: @Model.GetSentence().<br>
+<p>There is/are "@Model.CountWords()" matched word(s) in your sentence</p><br>
 
 <form action="/words/new" method="Get">
   <button type="submit">Try Again</button>
